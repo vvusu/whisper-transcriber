@@ -1,0 +1,41 @@
+# --- Models / large binaries (do not commit) ---
+assets/models/
+assets/models/*.bin
+assets/models/*.ggml
+*.bin
+*.ggml
+
+# --- OS / editor junk ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# --- Logs / temp / caches ---
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.backup
+/tmp/
+
+# --- Node / Python common ---
+node_modules/
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# --- OpenClaw / local runtime state (should not be published) ---
+# (Keep this repo portable; user-specific OpenClaw dirs belong in ~/.openclaw)
+*.local
